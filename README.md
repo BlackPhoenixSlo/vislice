@@ -1,2 +1,2 @@
 # vislice
-https://github.com/Učni_projekt_pri_uvp
+Učni_projekt_pri_uvp
