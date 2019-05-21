@@ -24,6 +24,9 @@ class Igra:
     def napacne_crke(self):
         return [c for c in self.crke if c not in self.geslo]
 
+    def stevilo_napak(self):
+        return len(self.napacne_crke())
+
     def pravilne_crke(self):
         return [c for c in self.crke if c in self.geslo]
     
