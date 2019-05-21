@@ -10,7 +10,7 @@ a = 0
 
 def napolnibesede():
     bazen_besed.clear()
-    with open ('vaja11/vislice/besede.txt', encoding='utf-8') as vhod:
+    with open ('besede.txt', encoding='utf-8') as vhod:
         for i in vhod:
             bazen_besed.append(i[:-1])
 
