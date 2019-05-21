@@ -3,8 +3,9 @@ PRAVILNA_CRKA = '+'
 PONOVLJENA_CRKA = 'o'
 NAPACNA_CRKA ='-'
 ZMAGA='W'
-PORAZ='X'
+PORAZ='X' 
 bazen_besed=[]
+a = 0
 
 def napolnibesede():
     bazen_besed.clear()
